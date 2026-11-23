@@ -1,0 +1,12 @@
+name: PwLogngp
+version: 1.1
+main: com.example.pwlogger.PwLog
+api-version: 1.13
+softdepend: [AuthMe]
+commands:
+  pwlog:
+    description: Read the password log
+    usage: /pwlog [page|search <text>|clear]
+permissions:
+  pwlog.view:
+    default: op
